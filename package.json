@@ -1,6 +1,5 @@
 {
   "name": "@profiya/bucket",
-  "private": "false",
   "version": "1.0.1",
   "author": "Profiya",
   "license": "MIT",
@@ -9,6 +8,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -45,5 +47,12 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.3",
     "vite-plugin-dts": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lac617a/profiya-bucket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lac617a/profiya-bucket/issues"
   }
 }
