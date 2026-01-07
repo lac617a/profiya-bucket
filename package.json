@@ -1,6 +1,6 @@
 {
   "name": "@profiya/bucket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Profiya",
   "license": "MIT",
   "description": "Librería ligera para Cloudflare R2 usando AWS SDK",
